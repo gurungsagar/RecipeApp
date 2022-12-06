@@ -2,7 +2,7 @@
 //  RecipePreview.swift
 //  RecipeApp
 //
-//  Created by Sagar Gurung on 12/5/22.
+//  Created by Sagar Gurung
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  RecipeApp
 //
-//  Created by Sagar Gurung on 10/22/22.
+//  Created by Sagar Gurung
 //
 
 import SwiftUI
