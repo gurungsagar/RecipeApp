@@ -14,6 +14,14 @@
 		3742259D29046E7E0076539B /* RecipeAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3742259C29046E7E0076539B /* RecipeAppTests.swift */; };
 		374225A729046E7E0076539B /* RecipeAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374225A629046E7E0076539B /* RecipeAppUITests.swift */; };
 		374225A929046E7E0076539B /* RecipeAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374225A829046E7E0076539B /* RecipeAppUITestsLaunchTests.swift */; };
+		379AA4AF293F145B002A4CBD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4AE293F145B002A4CBD /* HomeView.swift */; };
+		379AA4B2293F14A8002A4CBD /* RecipeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4B1293F14A8002A4CBD /* RecipeCollection.swift */; };
+		379AA4B4293F14C8002A4CBD /* RecipePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4B3293F14C8002A4CBD /* RecipePreview.swift */; };
+		379AA4B6293F14EA002A4CBD /* RecipeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4B5293F14EA002A4CBD /* RecipeDetail.swift */; };
+		379AA4B8293F1527002A4CBD /* ReceipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4B7293F1527002A4CBD /* ReceipeData.swift */; };
+		379AA4BC293F159C002A4CBD /* ReceipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4BB293F159C002A4CBD /* ReceipeModel.swift */; };
+		379AA4BF293F15CD002A4CBD /* CategoriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4BE293F15CD002A4CBD /* CategoriesView.swift */; };
+		379AA4C2293F174D002A4CBD /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379AA4C1293F174D002A4CBD /* FavoritesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		374225A229046E7E0076539B /* RecipeAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipeAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		374225A629046E7E0076539B /* RecipeAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAppUITests.swift; sourceTree = "<group>"; };
 		374225A829046E7E0076539B /* RecipeAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		379AA4AE293F145B002A4CBD /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		379AA4B1293F14A8002A4CBD /* RecipeCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollection.swift; sourceTree = "<group>"; };
+		379AA4B3293F14C8002A4CBD /* RecipePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipePreview.swift; sourceTree = "<group>"; };
+		379AA4B5293F14EA002A4CBD /* RecipeDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetail.swift; sourceTree = "<group>"; };
+		379AA4B7293F1527002A4CBD /* ReceipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeData.swift; sourceTree = "<group>"; };
+		379AA4BB293F159C002A4CBD /* ReceipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeModel.swift; sourceTree = "<group>"; };
+		379AA4BE293F15CD002A4CBD /* CategoriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesView.swift; sourceTree = "<group>"; };
+		379AA4C1293F174D002A4CBD /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				3742258A29046E7D0076539B /* RecipeAppApp.swift */,
-				3742258C29046E7D0076539B /* ContentView.swift */,
+				379AA4BE293F15CD002A4CBD /* CategoriesView.swift */,
+				379AA4BA293F157E002A4CBD /* Model */,
+				379AA4AB293F13A7002A4CBD /* Views */,
 				3742258E29046E7D0076539B /* Assets.xcassets */,
 				3742259029046E7D0076539B /* RecipeApp.entitlements */,
 				3742259129046E7D0076539B /* Preview Content */,
@@ -127,6 +145,28 @@
 				374225A829046E7E0076539B /* RecipeAppUITestsLaunchTests.swift */,
 			);
 			path = RecipeAppUITests;
+			sourceTree = "<group>";
+		};
+		379AA4AB293F13A7002A4CBD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3742258C29046E7D0076539B /* ContentView.swift */,
+				379AA4B1293F14A8002A4CBD /* RecipeCollection.swift */,
+				379AA4AE293F145B002A4CBD /* HomeView.swift */,
+				379AA4B3293F14C8002A4CBD /* RecipePreview.swift */,
+				379AA4B5293F14EA002A4CBD /* RecipeDetail.swift */,
+				379AA4B7293F1527002A4CBD /* ReceipeData.swift */,
+				379AA4C1293F174D002A4CBD /* FavoritesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		379AA4BA293F157E002A4CBD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				379AA4BB293F159C002A4CBD /* ReceipeModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +233,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1400;
-				LastUpgradeCheck = 1400;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					3742258629046E7D0076539B = {
 						CreatedOnToolsVersion = 14.0.1;
@@ -259,7 +299,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				379AA4C2293F174D002A4CBD /* FavoritesView.swift in Sources */,
+				379AA4AF293F145B002A4CBD /* HomeView.swift in Sources */,
+				379AA4B2293F14A8002A4CBD /* RecipeCollection.swift in Sources */,
+				379AA4B4293F14C8002A4CBD /* RecipePreview.swift in Sources */,
+				379AA4BC293F159C002A4CBD /* ReceipeModel.swift in Sources */,
 				3742258D29046E7D0076539B /* ContentView.swift in Sources */,
+				379AA4BF293F15CD002A4CBD /* CategoriesView.swift in Sources */,
+				379AA4B6293F14EA002A4CBD /* RecipeDetail.swift in Sources */,
+				379AA4B8293F1527002A4CBD /* ReceipeData.swift in Sources */,
 				3742258B29046E7D0076539B /* RecipeAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +378,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -388,6 +437,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -412,8 +462,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RecipeApp/RecipeApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RecipeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9AZ45BGAKV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -450,8 +502,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RecipeApp/RecipeApp.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"RecipeApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9AZ45BGAKV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -489,6 +543,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 9AZ45BGAKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -512,6 +567,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 9AZ45BGAKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -534,6 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 9AZ45BGAKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
@@ -556,6 +613,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 9AZ45BGAKV;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
