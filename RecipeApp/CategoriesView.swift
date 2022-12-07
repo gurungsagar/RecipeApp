@@ -21,7 +21,16 @@ struct CategoriesView: View {
                 }
                 }
             }
-                .navigationTitle("Categories")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    VStack {
+                        Text("Categories").font(.system(size:40)).bold()
+                        
+                    }
+                }
+            }
+                        
         }
         .navigationViewStyle(.stack)
     }

@@ -28,9 +28,6 @@ struct RecipeDetail: View {
                     .padding(.top, 10)
                     
                     
-                    Text(recipe.headline)
-                        .multilineTextAlignment(.leading)
-                    
                     Text("Ingredients")
                         .font(.system(.largeTitle))
                         .padding(5)

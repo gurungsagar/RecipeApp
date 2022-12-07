@@ -16,16 +16,18 @@ struct HomeView: View {
         NavigationView {
      
             ScrollView(.horizontal){
-            RecipeCollection(recipes: Recipe.receipesData)
-                
+                RecipeCollection(recipes: Recipe.receipesData)
             }
-            
-            .navigationTitle("Nepali Recipes")
-            
-            
-            }
+            .navigationBarTitleDisplayMode(.inline)
+                .toolbar {
+                    ToolbarItem(placement: .principal) {
+                        VStack {
+                            Text("Asian Food Recipe").font(.system(size: 40)).bold();
+                        }
+                    }
+                }
+        }
         .navigationViewStyle(.stack)
-        
     }
         
 }

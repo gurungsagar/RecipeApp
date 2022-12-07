@@ -16,7 +16,7 @@ struct RecipeCollection: View{
                 ForEach(recipes) {recipe in
                     NavigationLink(destination: RecipeDetail(recipe: recipe)){
                     RecipePreview(reciepe: recipe)
-                            .frame(width: 300, height: 300)
+                            
                 }
                 }
             

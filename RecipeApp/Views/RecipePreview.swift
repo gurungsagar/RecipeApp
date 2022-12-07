@@ -16,28 +16,19 @@ struct RecipePreview: View {
             Image(reciepe.image)
                 .resizable()
                 .scaledToFit()
-            VStack(alignment: .leading, spacing: 12){
+            VStack(alignment: .center){
                 Text(reciepe.name)
                     .fontWeight(.bold)
-                    .lineLimit(1)
-                
-                Text(reciepe.headline)
-                    .italic()
-                    .multilineTextAlignment(.center)
+                    .lineLimit(1).foregroundColor(.black);
                 
             }
+            .frame(width: 300, height: 50)
             .padding()
             
         }
+        .frame(width: 325, height: 400)
         .background(Color.white)
         .cornerRadius(12)
-        
-        if favorites.contains(reciepe){
-            Spacer()
-            Image(systemName: "heart.fill")
-                .accessibilityLabel( "This is your favorite recipe")
-                .foregroundColor(.red)
-        }
           
     }
   
